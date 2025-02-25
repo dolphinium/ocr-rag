@@ -1,0 +1,8 @@
+easyocr
+pillow
+pillow-heif
+tqdm
+openai==0.28
+faiss-cpu
+tiktoken
+python-dotenv
