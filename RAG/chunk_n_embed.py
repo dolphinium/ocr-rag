@@ -13,8 +13,8 @@ API_KEY = os.environ.get("OPENAI_API_KEY")
 openai.api_key = API_KEY
 
 # Define input & output files
-jsonl_file = "../book_text.jsonl"
-faiss_index_file = "faiss_index.bin"
+jsonl_file = "../book_text_2.jsonl"
+faiss_index_file = "faiss_index_2.bin"
 embedding_dim = 1536  # OpenAI 'text-embedding-ada-002' output size
 
 # Load text data
@@ -82,7 +82,7 @@ for page in tqdm(book_data):
 faiss.write_index(index, faiss_index_file)
 
 # Save metadata separately
-with open("metadata.json", "w", encoding="utf-8") as f:
+with open("metadata_2.json", "w", encoding="utf-8") as f:
     json.dump(metadata, f, ensure_ascii=False, indent=4)
 
 print("Embedding storage complete! FAISS index and metadata saved.")

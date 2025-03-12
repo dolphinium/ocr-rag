@@ -3,8 +3,8 @@ from pillow_heif import open_heif
 from PIL import Image
 
 # Define input and output folder
-input_folder = "../images_heic"
-output_folder = "../images_jpg"
+input_folder = "../images_heic_2"
+output_folder = "../images_jpg_2"
 
 # Create output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
