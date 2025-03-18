@@ -1,6 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+data/raw/
+config/*.json
+*.log
+
 .env*
-/images_heic/
-/images_heic_2/
-/images_jpg/
-/images_jpg_2/
-crucial-cabinet-448411-f0-0af14a4cf81e.json
+/config/crucial-cabinet-448411-f0-0af14a4cf81e.json
